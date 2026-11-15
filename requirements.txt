@@ -1,0 +1,14 @@
+# Python 3.11+ (built with 3.13). No pandas needed: DuckDB + Polars + NumPy.
+duckdb==2.0.0
+polars==2.1.0
+pyarrow==26.0.1
+numpy==2.5.4
+scipy==1.18.1
+matplotlib==3.11.2
+plotly==7.1.0
+requests==2.34.2
+pypdf==7.1.0
+nbformat==5.11.1
+nbconvert==7.17.2
+ipykernel==7.4.0
+# optional, only for src/collect_trends.py (needs pandas): pytrends

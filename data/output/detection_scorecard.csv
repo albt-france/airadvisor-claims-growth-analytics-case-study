@@ -1,0 +1,9 @@
+id,event,planted,true_start,detected,detected_at,method
+1,broken_tag,claim_submit not sent on mobile web after a release,2026-09-15,true,2026-09-15,"03 daily GA4/CRM ratio, 3 alerts in a row"
+2,consent_mode,new consent banner lowers consent from 63% to 47%,2026-02-16,true,2026-02-16,"04 weekly coverage, 3-sd drop, CRM flat"
+3,double_counting,"platforms report 1.12x (Google), 2.05x (Meta), 1.18x (Microsoft) the claims they drove",2025-05-01,true,all period,06 platform conversions vs CRM last click
+4,brand_cannibalisation,Microsoft brand paused; 88% of its sessions return via SEO,2026-02-02,true,2026-02-02,10 + regression DiD
+5,ab_srm,fee-display test: 14% of low-intent mobile B users not logged; true effect ~0,2026-06-01,true,2026-06-01,11 chi-square on exposures vs server log
+6,acceptance_drop,Carrier H first-response acceptance 62% -> 30%,2026-05-01,true,2026-05,08 + two-proportion z-test
+7,seasonal_peak,summer peak follows the real CAA seasonality: nothing broken,2026-06-01,true,2026-07,12 YoY growth stable while month-on-month jumps
+8,duplicates,"186 claims duplicated by a CRM sync (new id, +37 s)",2026-01-20,true,2026-01-20,"05 LAG window, same key within 5 min"

@@ -1,0 +1,9 @@
+id,event,description,start,end,market,device
+1,broken_tag,claim_submit not sent on mobile web after a release,2026-09-15,2026-10-31,all,mobile
+2,consent_mode,new consent banner lowers consent from 63% to 47%,2026-02-16,2026-10-31,DE,all
+3,double_counting,"platforms report 1.12x (Google), 2.05x (Meta), 1.18x (Microsoft) the claims they drove",2025-05-01,2026-10-31,all,all
+4,brand_cannibalisation,Microsoft brand paused; 88% of its sessions return via SEO,2026-02-02,2026-03-29,FR,all
+5,ab_srm,fee-display test: 14% of low-intent mobile B users not logged; true effect ~0,2026-06-01,2026-07-12,all but NL,mobile
+6,acceptance_drop,Carrier H first-response acceptance 62% -> 30%,2026-05-01,2026-10-31,all,all
+7,seasonal_peak,summer peak follows the real CAA seasonality: nothing broken,2026-06-01,2026-08-31,all,all
+8,duplicates,"186 claims duplicated by a CRM sync (new id, +37 s)",2026-01-20,2026-01-20,all,all

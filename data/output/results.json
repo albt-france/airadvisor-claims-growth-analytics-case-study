@@ -1,0 +1,622 @@
+{
+ "market": {
+  "ceiling_eur": 4018996788.0977554,
+  "tam_eur": 663134470.0361295,
+  "sam_eur": 88777127.17608686,
+  "som_eur": 10653255.26113042,
+  "som_claims": 124526.76570509044,
+  "countries": 31,
+  "departing_pax": 876865135.5,
+  "disrupted_pax": 11979486.840316547,
+  "disrupted_share": 0.013661721005118635,
+  "avg_amount_eur": 335.4898954913462,
+  "top5": [
+   "UK",
+   "DE",
+   "FR",
+   "ES",
+   "NL"
+  ],
+  "next": [
+   "NL",
+   "IT",
+   "PT",
+   "BE"
+  ],
+  "top4_share_som": 0.554609504624725,
+  "uk_share_ceiling": 0.20646378895758352,
+  "ranking_stable_top5": true,
+  "sens_min": 5326627.63056521,
+  "sens_max": 17755425.435217373,
+  "us_late3": 0.0161937993905067,
+  "us_cancel": 0.01469317310753413,
+  "us_carrier_share": 0.3925081930808684,
+  "us_share_3to4": 0.46045509627036485,
+  "us_flights": 7001619.0,
+  "eu_late3_mean": 0.0046982832843008235,
+  "uk_late3": 0.005470383526225372,
+  "uk_cancel": 0.010400907853619894
+ },
+ "tracking": {
+  "funnel": {
+   "sessions": 638930,
+   "checks": 283636,
+   "starts": 87077,
+   "submits": 54602,
+   "signed": 46894
+  },
+  "mobile_vs_desktop_submit": [
+   0.5725,
+   0.6999
+  ],
+  "tag_break": {
+   "detected": "2026-09-15",
+   "ratio_before": 0.6605535714285714,
+   "ratio_after": 0.00017021276595744682,
+   "crm_claims_unseen_by_ga4": 4814,
+   "false_alerts_before": 0
+  },
+  "consent": {
+   "coverage": {
+    "DE": {
+     "before": 0.627906976744186,
+     "after": 0.4702750665483585
+    },
+    "ES": {
+     "before": 0.7304832713754646,
+     "after": 0.7283845278725825
+    },
+    "FR": {
+     "before": 0.6657894736842105,
+     "after": 0.6590145576707727
+    },
+    "IT": {
+     "before": 0.698961937716263,
+     "after": 0.6904411764705882
+    },
+    "NL": {
+     "before": null,
+     "after": 0.6897923110914715
+    },
+    "UK": {
+     "before": 0.7501139990880072,
+     "after": 0.7369320609599772
+    }
+   },
+   "de_change_week": "2026-02-16",
+   "de_crm_weekly_before": 101.35714285714286,
+   "de_crm_weekly_after": 100.71428571428571
+  },
+  "duplicates": {
+   "days": 1,
+   "count": 186,
+   "day": "2026-01-20"
+  },
+  "platforms": {
+   "by_platform": [
+    {
+     "platform": "google_ads",
+     "reported": 29958.0,
+     "crm_claims": 26904,
+     "spend_eur": 1540690.0,
+     "factor": 1.113514719000892
+    },
+    {
+     "platform": "meta_ads",
+     "reported": 15143.0,
+     "crm_claims": 7304,
+     "spend_eur": 380959.0,
+     "factor": 2.0732475355969333
+    },
+    {
+     "platform": "microsoft_ads",
+     "reported": 8095.0,
+     "crm_claims": 6847,
+     "spend_eur": 135224.0,
+     "factor": 1.182269607127209
+    }
+   ],
+   "reported_total": 53196.0,
+   "crm_paid_total": 41055,
+   "over_total": 1.2957252466203872,
+   "all_crm_claims": 90067,
+   "months_reported_gt_all_paid": 18
+  }
+ },
+ "testing": {
+  "srm": {
+   "ga_a": 7628,
+   "ga_b": 7013,
+   "ga_share_b": 0.47899733624752405,
+   "ga_p": 3.7221569688905535e-07,
+   "server_a": 11494,
+   "server_b": 11536,
+   "server_p": 0.7819648868048115,
+   "mobile_share_b": 0.4605,
+   "mobile_p": 6.11908235736464e-13,
+   "desktop_p": 0.556760530205421
+  },
+  "raw": {
+   "rate_a": 0.3467488201363398,
+   "rate_b": 0.38000855553971197,
+   "lift_rel": 0.09591881348087816,
+   "diff_pts": 0.03325973540337218,
+   "ci_low": 0.017666937434473833,
+   "ci_high": 0.04885253337227053,
+   "z": 4.181672979693271,
+   "p_value": 2.8937197321221575e-05,
+   "n_a": 7628,
+   "n_b": 7013
+  },
+  "itt": {
+   "rate_a": 0.35061771358969895,
+   "rate_b": 0.34518030513176146,
+   "lift_rel": -0.01550808258449965,
+   "diff_pts": -0.005437408457937498,
+   "ci_low": -0.01774061217508049,
+   "ci_high": 0.006865795259205495,
+   "z": -0.8662148547224245,
+   "p_value": 0.386372348661451,
+   "n_a": 11494,
+   "n_b": 11536
+  },
+  "power": {
+   "baseline": 0.35061771358969895,
+   "n_per_arm_for_5pct": 11758.244378301966,
+   "n_per_arm_actual": 11494,
+   "mde_rel_actual": 0.05250000000000001,
+   "weeks_for_5pct": 6.137938600122829
+  },
+  "did": {
+   "beta_log": -0.011869849996282754,
+   "se_log": 0.052992388870504725,
+   "beta_level": 1.802884615384634,
+   "se_level": 3.4927579374258038,
+   "ci_level": [
+    -5.042920941969941,
+    8.64869017273921
+   ],
+   "fr_ms_brand_per_week_before": 9.923076923076923,
+   "incrementality": -0.18168604651162978,
+   "incr_ci": [
+    -0.8715734282605405,
+    0.5082013352372808
+   ],
+   "fr_seo_before": 51.69230769230769,
+   "fr_seo_pause": 52.125,
+   "placebo_beta_log": -0.06075376223869607,
+   "placebo_se_log": 0.07016647680100166
+  }
+ },
+ "spend": {
+  "channels": [
+   {
+    "traffic_source": "google_ads",
+    "campaign_type": "non_brand",
+    "claims": 5122,
+    "paid": 2839.0,
+    "rev": 615502.2600000029,
+    "spend": 451160.02999999997,
+    "cac_claim": 88.08278602108551,
+    "cac_paid": 158.91512152166254,
+    "rev_per_claim": 120.1683443967206,
+    "roas": 1.3642659346396508,
+    "incrementality": 1.0,
+    "incr_source": "assumed 100% until tested",
+    "incr_roas": 1.3642659346396508,
+    "incr_cac_paid": 158.91512152166254
+   },
+   {
+    "traffic_source": "meta_ads",
+    "campaign_type": "prospecting",
+    "claims": 1378,
+    "paid": 698.0,
+    "rev": 149670.3800000001,
+    "spend": 96716.31999999982,
+    "cac_claim": 70.18600870827272,
+    "cac_paid": 138.56206303724903,
+    "rev_per_claim": 108.61420899854869,
+    "roas": 1.5475193845258006,
+    "incrementality": 1.0,
+    "incr_source": "assumed 100% until tested",
+    "incr_roas": 1.5475193845258006,
+    "incr_cac_paid": 138.56206303724903
+   },
+   {
+    "traffic_source": "google_ads",
+    "campaign_type": "brand",
+    "claims": 3498,
+    "paid": 1917.0,
+    "rev": 433278.2600000013,
+    "spend": 39584.740000000056,
+    "cac_claim": 11.316392224128089,
+    "cac_paid": 20.649316640584274,
+    "rev_per_claim": 123.86456832475737,
+    "roas": 10.945588123099979,
+    "incrementality": null,
+    "incr_source": "untested: run the same pause",
+    "incr_roas": null,
+    "incr_cac_paid": null
+   },
+   {
+    "traffic_source": "microsoft_ads",
+    "campaign_type": "non_brand",
+    "claims": 536,
+    "paid": 327.0,
+    "rev": 65781.13999999996,
+    "spend": 29736.740000000023,
+    "cac_claim": 55.478992537313474,
+    "cac_paid": 90.93804281345572,
+    "rev_per_claim": 122.72600746268648,
+    "roas": 2.212116728330002,
+    "incrementality": 1.0,
+    "incr_source": "assumed 100% until tested",
+    "incr_roas": 2.212116728330002,
+    "incr_cac_paid": 90.93804281345572
+   },
+   {
+    "traffic_source": "meta_ads",
+    "campaign_type": "retargeting",
+    "claims": 920,
+    "paid": 442.0,
+    "rev": 97270.91,
+    "spend": 23254.339999999986,
+    "cac_claim": 25.276456521739114,
+    "cac_paid": 52.61162895927598,
+    "rev_per_claim": 105.72925000000001,
+    "roas": 4.18291424310473,
+    "incrementality": 1.0,
+    "incr_source": "assumed 100% until tested",
+    "incr_roas": 4.18291424310473,
+    "incr_cac_paid": 52.61162895927598
+   },
+   {
+    "traffic_source": "microsoft_ads",
+    "campaign_type": "brand",
+    "claims": 1648,
+    "paid": 919.0,
+    "rev": 200000.48999999982,
+    "spend": 13620.409999999998,
+    "cac_claim": 8.264811893203882,
+    "cac_paid": 14.820903155603915,
+    "rev_per_claim": 121.35952063106785,
+    "roas": 14.68388176273694,
+    "incrementality": 0.0,
+    "incr_source": "measured (France pause)",
+    "incr_roas": 0.0,
+    "incr_cac_paid": Infinity
+   },
+   {
+    "traffic_source": "crm",
+    "campaign_type": "email",
+    "claims": 5513,
+    "paid": 3065.0,
+    "rev": 676653.2300000053,
+    "spend": 0.0,
+    "cac_claim": 0.0,
+    "cac_paid": 0.0,
+    "rev_per_claim": 122.73775258480053,
+    "roas": Infinity,
+    "incrementality": null,
+    "incr_source": "",
+    "incr_roas": null,
+    "incr_cac_paid": null
+   },
+   {
+    "traffic_source": "organic_social",
+    "campaign_type": "organic",
+    "claims": 877,
+    "paid": 462.0,
+    "rev": 95946.72000000002,
+    "spend": 0.0,
+    "cac_claim": 0.0,
+    "cac_paid": 0.0,
+    "rev_per_claim": 109.40332953249717,
+    "roas": Infinity,
+    "incrementality": null,
+    "incr_source": "",
+    "incr_roas": null,
+    "incr_cac_paid": null
+   },
+   {
+    "traffic_source": "seo",
+    "campaign_type": "organic",
+    "claims": 9002,
+    "paid": 5013.0,
+    "rev": 1085183.6600000092,
+    "spend": 0.0,
+    "cac_claim": 0.0,
+    "cac_paid": 0.0,
+    "rev_per_claim": 120.54917351699724,
+    "roas": Infinity,
+    "incrementality": null,
+    "incr_source": "",
+    "incr_roas": null,
+    "incr_cac_paid": null
+   }
+  ],
+  "waste": {
+   "ms_brand_spend_12m": 28879.25000000007,
+   "google_brand_spend_12m": 85514.45999999998,
+   "incrementality": 0.0,
+   "ms_brand_waste_12m": 28879.25000000007,
+   "total_spend_12m": 1402800.8599999996,
+   "note": "Google brand not tested: same test recommended before cutting it"
+  },
+  "meta_cac_paid": 105.2374210526314,
+  "meta_roas": 2.0583473492602318,
+  "google_nb_cac_paid": 158.91512152166254,
+  "google_nb_roas": 1.3642659346396508,
+  "forecast": {
+   "total_6m": 27797.60099233262,
+   "low_6m": 25784.885548198756,
+   "high_6m": 29974.490320934703,
+   "mape": 0.03953106302306594,
+   "budget_current_6m": 628842.0243430719,
+   "budget_proposed_6m": 615896.1483108106
+  },
+  "season": {
+   "jul26_vs_jun26": 0.3018619522287005,
+   "jul26_yoy": 0.176,
+   "yoy_min": 0.148,
+   "yoy_max": 0.206,
+   "jul25_vs_jun25": 0.31780515117581176
+  },
+  "acceptance": {
+   "carrier": "Carrier H",
+   "before": 0.6296610169491526,
+   "after": 0.2988636363636364,
+   "p_value": 0.0,
+   "others_max_drop": -0.034153250027370796,
+   "legal_win_rate_after_rejection": 0.6411764705882353
+  },
+  "ltv": {
+   "ltv12_per_customer": 133.82000000000002,
+   "repeat_rate": 0.21195954206957876,
+   "paid_cac_per_claim": 50.10043697479004,
+   "ltv_cac": 2.671034587329781
+  }
+ },
+ "subscription": {
+  "p_eligible_per_flight": 0.00751394655281525,
+  "p_disrupted_per_flight": 0.013661721005118635,
+  "avg_amount_eur": 335.4898954913462,
+  "baggage_claims_per_flight": 0.0024000000000000002,
+  "tiers": [
+   {
+    "tier": "Lite",
+    "price_eur": 29.0,
+    "take_up": 0.0947,
+    "subscribers": 777.0,
+    "trips_subscribers": 6.67,
+    "trips_offered": 3.96,
+    "cost_per_sub_full": 20.473872688434238,
+    "cost_per_sub_incremental": 4.627401539651874,
+    "margin_per_sub_year": 15.579362885956943,
+    "cooling_off": 0.057,
+    "renewal_off_observed": 0.14733969986357434,
+    "months_observed": 2.5008077834422346,
+    "renewal_projected": 0.46540638031631454,
+    "lifetime_years": 1.870579751011042,
+    "ltv_per_sub": 29.142440748124006,
+    "ltv_per_offer": 2.602481157933045,
+    "share_subs_above_breakeven_trips": 0.208731241473397
+   },
+   {
+    "tier": "Plus",
+    "price_eur": 49.0,
+    "take_up": 0.0543,
+    "subscribers": 453.0,
+    "trips_subscribers": 6.89,
+    "trips_offered": 3.96,
+    "cost_per_sub_full": 21.16806727734022,
+    "cost_per_sub_incremental": 4.784299902673161,
+    "margin_per_sub_year": 34.55381640999331,
+    "cooling_off": 0.071,
+    "renewal_off_observed": 0.22565320665083136,
+    "months_observed": 2.647205900737592,
+    "renewal_projected": 0.31371522272711583,
+    "lifetime_years": 1.4571210569083841,
+    "ltv_per_sub": 50.34909348754772,
+    "ltv_per_offer": 2.5398449162512984,
+    "share_subs_above_breakeven_trips": 0.09501187648456057
+   },
+   {
+    "tier": "Pro",
+    "price_eur": 79.0,
+    "take_up": 0.0284,
+    "subscribers": 230.0,
+    "trips_subscribers": 8.51,
+    "trips_offered": 4.01,
+    "cost_per_sub_full": 26.139199077324708,
+    "cost_per_sub_incremental": 5.907850063168948,
+    "margin_per_sub_year": 60.60647542975317,
+    "cooling_off": 0.117,
+    "renewal_off_observed": 0.22167487684729065,
+    "months_observed": 2.5768084003111227,
+    "renewal_projected": 0.3112757688014698,
+    "lifetime_years": 1.451959949571953,
+    "ltv_per_sub": 87.99817500871822,
+    "ltv_per_offer": 2.206747834328629,
+    "share_subs_above_breakeven_trips": 0.06896551724137931
+   }
+  ],
+  "best_tier": "Lite",
+  "best_price": 29.0,
+  "curve": [
+   {
+    "trips_per_year": 1,
+    "flights": 2,
+    "expected_claims": 0.0198278931056305,
+    "expected_compensation_eur": 7.201706287463098,
+    "cost_incremental_eur": 0.6939762586970675,
+    "cost_full_cannibalisation_eur": 3.070488144935997,
+    "be": 3.070488144935997
+   },
+   {
+    "trips_per_year": 2,
+    "flights": 4,
+    "expected_claims": 0.039655786211261,
+    "expected_compensation_eur": 14.403412574926197,
+    "cost_incremental_eur": 1.387952517394135,
+    "cost_full_cannibalisation_eur": 6.140976289871994,
+    "be": 6.140976289871994
+   },
+   {
+    "trips_per_year": 3,
+    "flights": 6,
+    "expected_claims": 0.059483679316891504,
+    "expected_compensation_eur": 21.605118862389297,
+    "cost_incremental_eur": 2.0819287760912024,
+    "cost_full_cannibalisation_eur": 9.211464434807992,
+    "be": 9.211464434807992
+   },
+   {
+    "trips_per_year": 4,
+    "flights": 8,
+    "expected_claims": 0.079311572422522,
+    "expected_compensation_eur": 28.806825149852394,
+    "cost_incremental_eur": 2.77590503478827,
+    "cost_full_cannibalisation_eur": 12.281952579743988,
+    "be": 12.281952579743988
+   },
+   {
+    "trips_per_year": 6,
+    "flights": 12,
+    "expected_claims": 0.11896735863378301,
+    "expected_compensation_eur": 43.210237724778594,
+    "cost_incremental_eur": 4.163857552182405,
+    "cost_full_cannibalisation_eur": 18.422928869615983,
+    "be": 18.422928869615983
+   },
+   {
+    "trips_per_year": 8,
+    "flights": 16,
+    "expected_claims": 0.158623144845044,
+    "expected_compensation_eur": 57.61365029970479,
+    "cost_incremental_eur": 5.55181006957654,
+    "cost_full_cannibalisation_eur": 24.563905159487977,
+    "be": 24.563905159487977
+   },
+   {
+    "trips_per_year": 10,
+    "flights": 20,
+    "expected_claims": 0.198278931056305,
+    "expected_compensation_eur": 72.017062874631,
+    "cost_incremental_eur": 6.939762586970676,
+    "cost_full_cannibalisation_eur": 30.70488144935997,
+    "be": 30.70488144935997
+   },
+   {
+    "trips_per_year": 12,
+    "flights": 24,
+    "expected_claims": 0.23793471726756601,
+    "expected_compensation_eur": 86.42047544955719,
+    "cost_incremental_eur": 8.32771510436481,
+    "cost_full_cannibalisation_eur": 36.84585773923197,
+    "be": 36.84585773923197
+   },
+   {
+    "trips_per_year": 15,
+    "flights": 30,
+    "expected_claims": 0.2974183965844575,
+    "expected_compensation_eur": 108.02559431194649,
+    "cost_incremental_eur": 10.409643880456013,
+    "cost_full_cannibalisation_eur": 46.05732217403997,
+    "be": 46.05732217403997
+   },
+   {
+    "trips_per_year": 20,
+    "flights": 40,
+    "expected_claims": 0.39655786211261,
+    "expected_compensation_eur": 144.034125749262,
+    "cost_incremental_eur": 13.879525173941351,
+    "cost_full_cannibalisation_eur": 61.40976289871994,
+    "be": 61.40976289871994
+   }
+  ],
+  "breakeven_trips_full": {
+   "Lite": 10,
+   "Plus": 20,
+   "Pro": null
+  }
+ },
+ "detection": {
+  "found": 8,
+  "total": 8,
+  "rows": [
+   {
+    "id": 1,
+    "event": "broken_tag",
+    "planted": "claim_submit not sent on mobile web after a release",
+    "true_start": "2026-09-15",
+    "detected": true,
+    "detected_at": "2026-09-15",
+    "method": "03 daily GA4/CRM ratio, 3 alerts in a row"
+   },
+   {
+    "id": 2,
+    "event": "consent_mode",
+    "planted": "new consent banner lowers consent from 63% to 47%",
+    "true_start": "2026-02-16",
+    "detected": true,
+    "detected_at": "2026-02-16",
+    "method": "04 weekly coverage, 3-sd drop, CRM flat"
+   },
+   {
+    "id": 3,
+    "event": "double_counting",
+    "planted": "platforms report 1.12x (Google), 2.05x (Meta), 1.18x (Microsoft) the claims they drove",
+    "true_start": "2025-05-01",
+    "detected": true,
+    "detected_at": "all period",
+    "method": "06 platform conversions vs CRM last click"
+   },
+   {
+    "id": 4,
+    "event": "brand_cannibalisation",
+    "planted": "Microsoft brand paused; 88% of its sessions return via SEO",
+    "true_start": "2026-02-02",
+    "detected": true,
+    "detected_at": "2026-02-02",
+    "method": "10 + regression DiD"
+   },
+   {
+    "id": 5,
+    "event": "ab_srm",
+    "planted": "fee-display test: 14% of low-intent mobile B users not logged; true effect ~0",
+    "true_start": "2026-06-01",
+    "detected": true,
+    "detected_at": "2026-06-01",
+    "method": "11 chi-square on exposures vs server log"
+   },
+   {
+    "id": 6,
+    "event": "acceptance_drop",
+    "planted": "Carrier H first-response acceptance 62% -> 30%",
+    "true_start": "2026-05-01",
+    "detected": true,
+    "detected_at": "2026-05",
+    "method": "08 + two-proportion z-test"
+   },
+   {
+    "id": 7,
+    "event": "seasonal_peak",
+    "planted": "summer peak follows the real CAA seasonality: nothing broken",
+    "true_start": "2026-06-01",
+    "detected": true,
+    "detected_at": "2026-07",
+    "method": "12 YoY growth stable while month-on-month jumps"
+   },
+   {
+    "id": 8,
+    "event": "duplicates",
+    "planted": "186 claims duplicated by a CRM sync (new id, +37 s)",
+    "true_start": "2026-01-20",
+    "detected": true,
+    "detected_at": "2026-01-20",
+    "method": "05 LAG window, same key within 5 min"
+   }
+  ]
+ }
+}

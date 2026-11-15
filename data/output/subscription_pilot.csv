@@ -1,0 +1,4 @@
+tier,price_eur,offers,subscribers,take_up,trips_all_offered,trips_subscribers,cooling_off_rate,renewal_off_rate,covered_claims
+Lite,29.0,8206,777.0,0.0947,3.96,6.67,0.057,0.147,23.0
+Plus,49.0,8338,453.0,0.0543,3.96,6.89,0.071,0.226,9.0
+Pro,79.0,8099,230.0,0.0284,4.01,8.51,0.117,0.222,8.0

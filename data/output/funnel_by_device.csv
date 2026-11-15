@@ -1,0 +1,4 @@
+device_category,sessions,checks,starts,submits,signed,check_rate,start_rate,submit_rate,sign_rate,session_to_submit
+mobile,385543,165869,47503,27195,23355,0.4302,0.2864,0.5725,0.8588,0.0705
+desktop,220225,103229,35135,24592,21138,0.4687,0.3404,0.6999,0.8595,0.1117
+tablet,33162,14538,4439,2815,2401,0.4384,0.3053,0.6342,0.8529,0.0849

@@ -1,0 +1,7 @@
+device_category,variant,server_assignments,ga_exposures,ga_share,server_share
+desktop,A,4202,2781,0.4961,0.498
+desktop,B,4235,2825,0.5039,0.502
+mobile,A,6714,4468,0.5395,0.5003
+mobile,B,6706,3813,0.4605,0.4997
+tablet,A,578,379,0.5027,0.4928
+tablet,B,595,375,0.4973,0.5072

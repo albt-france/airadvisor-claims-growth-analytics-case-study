@@ -1,0 +1,7 @@
+metric,value
+flights,7001619.0
+cancel_rate,0.01469317310753413
+late_15_rate,0.21625354223462948
+late_3h_rate,0.0161937993905067
+share_3to4h_of_3h,0.46045509627036485
+carrier_share_of_3h_delay_minutes,0.3925081930808684
