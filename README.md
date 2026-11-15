@@ -2,7 +2,7 @@
 
 Real aviation and regulatory data turned into a country-by-country claim opportunity map, plus a simulated claim funnel used to show data ownership, tracking QA, experimentation, spend efficiency and subscription pricing.
 
-**[Read the report (PDF, 8 pages)](docs/AirAdvisor_ClaimsGrowth_CaseStudy.pdf)** · **[Dashboard](dashboard/insights_cockpit.html)** (one self-contained HTML file: download it and open it in a browser) · [CEO memo](docs/CEO_MEMO_example.md) · [KPI dictionary](docs/KPI_DICTIONARY.md) · [Tracking plan](docs/TRACKING_PLAN.md) · [Notebook](notebooks/airadvisor_analysis.ipynb)
+**[Read the report (PDF, 8 pages)](docs/AirAdvisor_ClaimsGrowth_CaseStudy.pdf)** · **[Open the dashboard](https://albt-france.github.io/airadvisor-claims-growth-analytics-case-study/dashboard/insights_cockpit.html)** (one self-contained HTML file, [source](dashboard/insights_cockpit.html)) · [CEO memo](docs/CEO_MEMO_example.md) · [KPI dictionary](docs/KPI_DICTIONARY.md) · [Tracking plan](docs/TRACKING_PLAN.md) · [Notebook](notebooks/airadvisor_analysis.ipynb)
 
 > Independent case study based on public data · not affiliated with or endorsed by AirAdvisor.
 > **PUBLIC DATA** = real, sourced data. **SIMULATED** = invented data that shows the method; it is never AirAdvisor's data.
